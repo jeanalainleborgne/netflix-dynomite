@@ -6,3 +6,5 @@ addons:
    packages:
    - python3
    - python3-pip
+   - pyhton3-yaml
+   
