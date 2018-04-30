@@ -12,6 +12,8 @@
 
 The ultimate goal with Dynomite is to be able to implement high availability and cross-datacenter replication on storage engines that do not inherently provide that functionality. The implementation is efficient, not complex (few moving parts), and highly performant.
 
+This version is modified to add the Redis authentication feature from https://github.com/lampmanyao/dynomite - send any question to jeanalain.leborgne@orange.com
+
 ## Workflow
 
 Every branch numbered like v0.5.9, v0.5.8 etc is stable and safe to use in production unless marked as pre-release. The [dev]( https://github.com/Netflix/dynomite/tree/dev ) branch is the development unstable branch. Over time master branch has fallen behind and is not maintained. We will eventually delete it and may or may not recreate it.
